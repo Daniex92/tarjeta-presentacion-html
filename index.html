@@ -1,84 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Hoja de Vida - Luisa Xilena Carranza Gallego</title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Hoja de vida — Xilena</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<main class="page">
+			<header class="hero">
+				<div class="hero__accent" aria-hidden="true"></div>
+				<div class="container hero__inner">
+					<div class="hero__meta">
+						<h1 class="hero__name">Xilena la Tajada</h1>
+						<p class="hero__title">Diseñadora UX · Investigadora de producto</p>
+						<p class="hero__tagline">Diseño experiencias humanas, elegantes y centradas en la claridad.</p>
+						<a class="btn btn--primary" href="#contact">Contactar</a>
+					</div>
+					<div class="hero__photo">
+						<img src="Profile.jfif" alt="Foto de Xilena Pérez" width="320" height="320">
+					</div>
+				</div>
+			</header>
 
-    <!-- Encabezado -->
-    <header>
-        <h1>Luisa Xilena Carranza Gallego</h1>
-        <h2>Estudiante Técnico en Plataformas Tecnológicas y Aplicaciones</h2>
-        <img src="Foto hoja de vida Luisa.jpeg" alt="Foto de perfil" width="150">
-        <p>Edad: 21 años</p>
-    </header>
+			<section class="container about" id="about">
+				<div class="about__grid">
+					<div class="about__text">
+						<h2>Sobre mí</h2>
+						<p>Soy una diseñadora de experiencia con 6 años trabajando en productos digitales. Me interesa la investigación centrada en usuarios, la elaboración de flujos claros y la creación de interfaces con intención visual y accesible.</p>
+						<p>Trabajo con equipos interdisciplinares para transformar problemas complejos en soluciones simples, escalables y bellas.</p>
+					</div>
+					<div class="about__card">
+						<ul class="legend">
+							<li><strong>Ubicación:</strong> Ciudad, País</li>
+							<li><strong>Disponibilidad:</strong> Contrato / Freelance</li>
+							<li><strong>Email:</strong> nombre@ejemplo.com</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-    <hr>
+			<section class="container skills" id="skills">
+				<h2>Habilidades</h2>
+				<div class="skills__list">
+					<div class="skill">
+						<div class="skill__meta"><span>Investigación</span><span>90%</span></div>
+						<div class="skill__bar"><div class="skill__fill" style="--w:90%"></div></div>
+					</div>
+					<div class="skill">
+						<div class="skill__meta"><span>Diseño de interacción</span><span>85%</span></div>
+						<div class="skill__bar"><div class="skill__fill" style="--w:85%"></div></div>
+					</div>
+					<div class="skill">
+						<div class="skill__meta"><span>Prototipado</span><span>80%</span></div>
+						<div class="skill__bar"><div class="skill__fill" style="--w:80%"></div></div>
+					</div>
+					<div class="skill tags">
+						<span class="tag">Figma</span>
+						<span class="tag">Miro</span>
+						<span class="tag">UX Research</span>
+						<span class="tag">Accesibilidad</span>
+					</div>
+				</div>
+			</section>
 
-    <!-- Contenido principal -->
-    <main>
+			<section class="container experience" id="experience">
+				<h2>Experiencia</h2>
+				<div class="timeline">
+					<article class="timeline__item">
+						<div class="timeline__date">2022 — Presente</div>
+						<div class="timeline__card">
+							<h3>Senior UX Designer — Empresa A</h3>
+							<p>Conduje proyectos de investigación multiplataforma y rediseñé el flujo de onboarding, aumentando la retención un 18%.</p>
+						</div>
+					</article>
 
-        <!-- Sección 1: Perfil Profesional -->
-        <section>
-            <h2>Perfil Profesional</h2>
-            <p>
-                Estudiante de Técnico en Plataformas Tecnológicas y Aplicaciones con conocimientos bàsicos
-                en alistamiento y configuracion inicial de equipos de computo,instalacion basica de software
-                y apoyo en soporte tecnico de primer nivel. Manejo basico de excel para control de inventarios 
-                y verificacion de equipos, con nociones en configuracion de impresoras, conexciona redes y 
-                validacion basica de hadware. En proceso de fortalecimiento de conocimientos practicos en 
-                sistemas y soporte tecnico.
-            </p>
-        </section>
+					<article class="timeline__item">
+						<div class="timeline__date">2019 — 2022</div>
+						<div class="timeline__card">
+							<h3>Product Designer — Empresa B</h3>
+							<p>Diseñé componentes reutilizables e implementé pruebas con usuarios para validar decisiones de producto.</p>
+						</div>
+					</article>
 
-        <!-- Sección 2: Habilidades -->
-        <section>
-            <h2>Habilidades</h2>
-            <ul>
-                <li>preparacion de equipos tecnologicos</li>
-                <li>inventario TI</li>
-                <li>trabajo en equipo</li>
-                <li>Manejo Excel bàsico</li>
-                <li>Inventario de activos tecnológicos</li>
-                <li>Configuración y registro de información en sistemas</li>
-                <li>Soporte técnico nivel 1</li>
-                <li>conceptos de hadware</li>
-            </ul>
-        </section>
+					<article class="timeline__item">
+						<div class="timeline__date">2017 — 2019</div>
+						<div class="timeline__card">
+							<h3>Diseñadora Junior — Estudio C</h3>
+							<p>Apoyé en la creación de identidad visual y prototipos de alta fidelidad para clientes corporativos.</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
-        <!-- Sección 3: Formación y Experiencia -->
-        <section>
-            <h2>Formación y Experiencia</h2>
+			<section class="container education" id="education">
+				<h2>Educación</h2>
+				<div class="edu-grid">
+					<div class="edu-card">
+						<h3>Licenciatura en Diseño</h3>
+						<p>Universidad Ejemplo — 2013 — 2017</p>
+					</div>
+					<div class="edu-card">
+						<h3>Curso: Investigación de usuarios</h3>
+						<p>Instituto Online — 2018</p>
+					</div>
+				</div>
+			</section>
 
-            <article>
-                <h3>Técnico en Plataformas Tecnológicas y Aplicaciones</h3>
-                <p>Actualmente en formación, adquiriendo conocimientos en soporte tecnico, 
-                gestión de activos TI y configuración de equipos.</p>
-            </article>
+			<section class="container contact" id="contact">
+				<h2>Contacto</h2>
+				<div class="contact__wrap">
+					<form class="contact__form" onsubmit="return false;" aria-label="Formulario de contacto visual">
+						<label>
+							<span>Nombre</span>
+							<input type="text" placeholder="Tu nombre" />
+						</label>
+						<label>
+							<span>Email</span>
+							<input type="email" placeholder="tu@correo.com" />
+						</label>
+						<label>
+							<span>Mensaje</span>
+							<textarea rows="4" placeholder="Hola, me interesa hablar contigo..."></textarea>
+						</label>
+						<div class="contact__actions">
+							<button class="btn btn--ghost" type="reset">Limpiar</button>
+							<button class="btn btn--primary" type="submit">Enviar</button>
+						</div>
+					</form>
+					<div class="contact__info">
+						<p>También puedes escribirme a <strong>nombre@ejemplo.com</strong> o encontrarme en LinkedIn.</p>
+					</div>
+				</div>
+			</section>
 
-            <article>
-                <h3>Curso de HTML</h3>
-                <p>Formación en fundamentos de desarrollo web y estructura de páginas utilizando HTML.</p>
-            </article>
-
-            <article>
-                <h3>Experiencia Laboral - Grupo motta internacional</h3>
-                <p>8 meses de experiencia en el área tecnológica, realizando soporte técnico, 
-                gestión de activos, configuración de equipos y registro de información en plataformas corporativas.</p>
-            </article>
-
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- Pie de página -->
-    <footer>
-        <p><strong>Correo electrónico:</strong> luisagall0612@gmail.com</p>
-        <p><strong>Ciudad y país:</strong> Bogotá, Colombia</p>
-        <p><strong>Año:</strong> 2026</p>
-    </footer>
-
-</body>
+			<footer class="site-footer">
+				<div class="container">
+					<p>© <span id="year">2026</span> Xilena Pérez — Diseño enfocado en las personas.</p>
+				</div>
+			</footer>
+		</main>
+		<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+	</body>
+</html>
